@@ -1,0 +1,146 @@
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+img {
+    max-width: 15%;
+    height: auto;
+    float: right; /* Align image to the right */
+    margin-left: 20px; /* Add margin between text and image */
+}
+body {
+    background-image: url('images/background.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  
+  }
+
+/* Clear floats to prevent layout issues */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Styles for the "Go to top" button */
+#goToTopBtn {
+    display: none;
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #007bff;
+    color: white; 
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+#goToTopBtn:hover {
+    background-color: #555; 
+}
+header {
+    background-color: #ffffff;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #2ecc71;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+}
+
+nav a {
+    flex: 1;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:not(:last-child) {
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}

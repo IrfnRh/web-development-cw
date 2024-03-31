@@ -144,16 +144,3 @@ footer {
     padding: 10px 0;
     width: 100%;
 }
-a {
-    display: inline-block; 
-    padding: 10px 20px; 
-    text-decoration: none; 
-    border: 2px solid #333; 
-    font-size: 16px; 
-    color: #333; 
-    transition: background-color 0.3s, color 0.3s; 
-}
-a:hover {
-    background-color: blue; 
-    color: white; 
-}

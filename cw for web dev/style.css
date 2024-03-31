@@ -104,16 +104,3 @@ footer {
     padding: 10px 0;
     width: 100%;
 }
-.img-gallery a {
-    display: block; 
-    text-align: center; 
-    margin-top: 10px; 
-    text-decoration: none; 
-    color: #000; 
-    font-weight: bold; 
-}
-
-
-.img-gallery a:hover {
-    color: #ff0000; 
-}

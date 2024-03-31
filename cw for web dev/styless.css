@@ -71,8 +71,8 @@ p {
 img {
     max-width: 15%;
     height: auto;
-    float: right; /* Align image to the right */
-    margin-left: 20px; /* Add margin between text and image */
+    float: right; 
+    margin-left: 20px; 
 }
 body {
     background-image: url('images/background.jpg'); 
@@ -81,13 +81,13 @@ body {
   
   }
 
-/* Clear floats to prevent layout issues */
+
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
-/* Styles for the "Go to top" button */
+
 #goToTopBtn {
     display: none;
     position: fixed; 
@@ -143,4 +143,17 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
+}
+a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border: 2px solid #333; 
+    font-size: 16px; 
+    color: #333; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+a:hover {
+    background-color: blue; 
+    color: white; 
 }

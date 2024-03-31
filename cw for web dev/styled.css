@@ -8,12 +8,16 @@ body {
     background-image: url('images/one\ piece.jpg'); 
     background-size: cover; 
     background-repeat: no-repeat; 
-    background-position: 50% ;
+    background-position: 50% ; 
 }
+
+/* Styling for main headings */
 h1, h3 {
     margin: 20px 0; 
-    color: pink
+    color: pink; 
 }
+
+/* Styling for links */
 a {
     display: inline-block; 
     padding: 10px 20px; 
@@ -23,53 +27,64 @@ a {
     color: #333; 
     transition: background-color 0.3s, color 0.3s; 
 }
+
+/* Hover effect for links */
 a:hover {
     background-color: blue; 
     color: white; 
 }
+
+/* Styling for main heading */
 h1 {
     font-size: 25px; 
     text-decoration: underline; 
 }
+
+/* Styling for subheading */
 h3 {
     font-size: 20px; 
 }
+
+/* Styling for header */
 header {
-    background-color: #ffffff;
-    color: #333;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #ffffff; 
+    color: #333; 
+    padding: 10px 0; 
+    text-align: center; 
 }
 
+/* Styling for navigation bar */
 nav {
-    background-color: #2ecc71;
-    padding: 10px 0;
-    text-align: center;
-    font-size: 24px;
-    display: flex;
+    background-color: #2ecc71; 
+    padding: 10px 0; 
+    text-align: center; 
+    font-size: 24px; 
+    display: flex; 
 }
 
+/* Styling for navigation links */
 nav a {
-    flex: 1;
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;
+    flex: 1; 
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.3s; 
 }
 
+/* Margin for navigation links except the last one */
 nav a:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 10px; 
 }
 
+/* Hover effect for navigation links */
 nav a:hover {
-    color: #000;
+    color: #000; 
 }
 
+/* Styling for footer */
 footer {
-    background-color: white;
-    color: black;
-    text-align: center;
-    padding: 10px 0;
-    width: 100%;
+    background-color: white; 
+    color: black; 
+    text-align: center; 
+    padding: 10px 0; 
+    width: 100%; 
 }
-
-

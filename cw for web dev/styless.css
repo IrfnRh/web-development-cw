@@ -1,102 +1,117 @@
+/* Center-align navigation and provide margin */
 nav {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 20px; /* Add margin on top */
 }
 
+/* Remove default list styling */
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
+/* Display list items inline */
 nav li {
     display: inline-block;
 }
 
+/* Styling for navigation links */
 nav a {
-    display: block;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #333;
-    border: 1px solid #333;
-    border-radius: 5px;
-    margin: 0 10px;
-    transition: background-color 0.3s ease;
+    display: block; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    color: #333; 
+    border: 1px solid #333; 
+    border-radius: 5px; 
+    margin: 0 10px; 
+    transition: background-color 0.3s ease; 
 }
 
+/* Hover effect for navigation links */
 nav a:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: #333; 
+    color: #fff; 
 }
 
+/* Body styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f4f4f4; 
 }
 
+/* Styling for header */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; /
 }
 
+/* Styling for main heading */
 h1 {
-    border-bottom: 2px solid #fff;
-    display: inline-block;
+    border-bottom: 2px solid #fff; 
+    display: inline-block; 
     padding-bottom: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 
+/* Main content section */
 main {
-    padding: 20px;
+    padding: 20px; 
 }
 
+/* Individual sections within the main content */
 section {
-    margin-bottom: 40px;
+    margin-bottom: 40px; 
 }
 
+/* Styling for subheadings */
 h2 {
-    border-bottom: 1px solid #333;
-    padding-bottom: 10px;
+    border-bottom: 1px solid #333; 
+    padding-bottom: 10px; 
 }
 
+/* Paragraph styles */
 p {
-    line-height: 1.6;
-    font-size: 20px;
+    line-height: 1.6; 
+    font-size: 20px; 
 }
 
+/* Image styles */
 img {
-    max-width: 15%;
-    height: auto;
+    max-width: 15%; 
+    height: auto; 
     float: right; 
     margin-left: 20px; 
 }
+
+/* Background image for body */
 body {
     background-image: url('images/background.jpg'); 
     background-size: cover; 
     background-repeat: no-repeat; 
-  
-  }
-
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
+/* Clearfix to clear floats */
+.clearfix::after {
+    content: ""; 
+    display: table; 
+    clear: both; 
+}
+
+/* Button to scroll to top */
 #goToTopBtn {
-    display: none;
+    display: none; 
     position: fixed; 
     bottom: 20px; 
     right: 20px; 
     z-index: 99; 
     border: none; 
     outline: none; 
-    background-color: #007bff;
+    background-color: #007bff; 
     color: white; 
     cursor: pointer; 
     padding: 10px; 
@@ -104,43 +119,51 @@ body {
     font-size: 16px; 
 }
 
+/* Hover effect for scroll-to-top button */
 #goToTopBtn:hover {
     background-color: #555; 
 }
+
+/* Styling for header */
 header {
-    background-color: #ffffff;
-    color: #333;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #ffffff; 
+    color: #333; 
+    padding: 10px 0; 
+    text-align: center; 
 }
 
+/* Styling for navigation bar */
 nav {
-    background-color: #2ecc71;
-    padding: 10px 0;
-    text-align: center;
-    font-size: 24px;
-    display: flex;
+    background-color: #2ecc71; 
+    padding: 10px 0; 
+    text-align: center; 
+    font-size: 24px; 
+    display: flex; 
 }
 
+/* Styling for navigation links */
 nav a {
-    flex: 1;
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;
+    flex: 1; 
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.3s; 
 }
 
+/* Margin for navigation links except the last one */
 nav a:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 10px; 
 }
 
+/* Hover effect for navigation links */
 nav a:hover {
-    color: #000;
+    color: #000; 
 }
 
+/* Styling for footer */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    width: 100%;
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 10px 0; 
+    width: 100%; 
 }

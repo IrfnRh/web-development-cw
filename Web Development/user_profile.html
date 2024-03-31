@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="user_profile.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <img src="images/FINALLOGO.jpg" alt="Logo" class="logo">
+    </div>
+</header>
+
+<nav>
+    <a href="user_profile.html">Your Profile</a>
+    <a href="team.html">Our Team</a>
+    <a href="shop.html">Our Shop</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="feedback.html">Feedback</a>
+</nav>
+
+<div class="container">
+  <h1>User Profile</h1>
+  <div id="progress-bar">
+    <div id="progress-bar-fill"></div>
+  </div>
+  <div class="step active" id="step1">
+    <div class="prompt">Enter your first name: <input type="text" id="first_name"></div>
+    <div class="prompt">Enter your surname: <input type="text" id="surname"></div>
+    <div class="prompt">Enter your email: <input type="email" id="email"></div>
+    <button onclick="nextStep()">Next</button>
+  </div>
+  <div class="step" id="step2">
+    <div class="prompt">Enter your location: <input type="text" id="location"></div>
+    <div class="prompt">Select your age:
+      <select id="age">
+        <option value="">Select...</option>
+        <!-- Generating options for ages 0 to 100 -->
+        <script>
+          for (let i = 0; i <= 100; i++) {
+            document.write(`<option value="${i}">${i}</option>`);
+          }
+        </script>
+      </select>
+    </div>
+    <button onclick="nextStep()">Next</button>
+  </div>
+  <div class="step" id="step3">
+    <div class="prompt">Enter your interests: <input type="text" id="interests"></div>
+    <button onclick="submitForm()">Submit</button>
+  </div>
+  <div id="progress">Profile Completion: <span id="progress-text">0%</span></div>
+</div>
+
+<footer>
+    <p>Empowering communities for a healthier tomorrow. Together, let's strive for universal access to quality healthcare, promoting well-being for all, and ensuring no one is left behind. Join us in making a difference for a brighter, healthier future.</p>
+    <p>© 2024 Good Health And well-being. All rights reserved.</p>
+    <a href="pageEditor _ST2.html">PAGE EDITOR</a>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

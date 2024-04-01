@@ -1,0 +1,102 @@
+/*Styling for h1*/
+h1 {
+  text-align: center;
+  color: black;
+}
+/*Styling for nodes*/
+.node {
+  fill: lightgray;
+  cursor: pointer;
+}
+/* Styling for node to hove*/
+.node:hover {
+  fill: blue;
+}
+/* Styling for tree branches */
+.branch {
+  fill: none; 
+  stroke: black; 
+  stroke-width: 2; 
+}
+
+/* Hover effect for tree branches */
+.branch:hover {
+  stroke: lightblue; 
+}
+
+/* Styling for node labels */
+.node-label {
+  font-family: Arial, sans-serif; 
+  text-anchor: middle; 
+  fill: black; 
+}
+
+/* Body styles */
+body {
+  background-image: url('images/background.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+}
+
+/* Reset margin and padding for body and html elements */
+body, html {
+  margin: 0; 
+  padding: 0; 
+}
+
+/* Styling for logo */
+.logo {
+  max-width: 20%; 
+  max-height: 20%; 
+}
+
+/* Container for SVG */
+.svg-container {
+  width: calc(100% - 160px); 
+  height: 100%; 
+  margin: 0 auto; 
+}
+
+/* Styling for header */
+header {
+  background-color: #ffffff; 
+  color: #333; 
+  padding: 10px 0; 
+  text-align: center; 
+}
+
+/* Styling for navigation bar */
+nav {
+  background-color: #2ecc71; 
+  padding: 10px 0; 
+  text-align: center; 
+  font-size: 24px; 
+  display: flex; 
+}
+
+/* Styling for navigation links */
+nav a {
+  flex: 1; 
+  color: #fff; 
+  text-decoration: none; 
+  transition: color 0.3s; 
+}
+
+/* Margin for navigation links except the last one */
+nav a:not(:last-child) {
+  margin-right: 10px; /
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+  color: #000; 
+}
+
+/* Styling for footer */
+footer {
+  background-color: #333; 
+  color: #fff; 
+  text-align: center; 
+  padding: 10px 0; 
+  width: 100%; 
+}

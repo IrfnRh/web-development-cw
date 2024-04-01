@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="styless.css"> 
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <img src="images/FINALLOGO.jpg" alt="Logo" class="logo"> 
+    </div>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="profile.html">Your Profile</a>
+    <a href="team.html">Our Team</a>
+    <a href="shop.html">Our Shop</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="feedback.html">Feedback</a>
+</nav>
+
+
+<header>
+    <h1>About Good Health and Wellbeing</h1> 
+</header>
+<nav>
+    <ul>
+        <li><a href="#section1">Introduction</a></li>
+        <li><a href="#section2">What is Good Health and Wellbeing?</a></li>
+        <li><a href="#section3">What is Goal 3 of Good Health and Wellbeing?</a></li>
+        <li><a href="#section4">Future Goals Good Health and Wellbeing</a></li>
+    </ul>
+</nav>
+<main>
+    <article>
+        <section id="section1" class="clearfix">
+            <h2>Introduction</h2>
+            <p>Welcome to the about us page! In this section, 
+                we will introduce what our topic, good health and wellbeing, is and give good detail and hope you guys get a good insight on what it is.
+
+            </p>
+            <img src="images/good health.png" alt="Introduction Image">
+        </section>
+        <section id="section2" class="clearfix">
+            <h2>What is Good Health and Wellbeing?</h2>
+            <p>A person may enjoy a happy and fruitful life when they are in a condition of physical, mental, and social wellness, which is referred to as good health and wellbeing.
+                 It encompasses a range of elements that contribute to general wellbeing and extends beyond the absence of illness and disease. 
+                 Here are a few examples: Physical Health, Mental Health, Healthy Eating, Learning Wellbeing and much more</p>
+            <img src="images/wellbeing.jpg" alt="What is Good Health and Wellbeing? Image">
+        </section>
+        <section id="section3" class="clearfix">
+            <h2>What is Goal 3 of Good Health and Wellbeing?</h2>
+            <p>The health of the populace has improved significantly in recent years. Out of 200 nations or regions, 146 have already attained or are on course to achieve the 
+                SDG objective for under-5 mortality.
+                 Since 2010, the number of fatalities from AIDS-related causes has decreased by 52% worldwide because to effective HIV therapy, and 47 nations have eradicated at least one neglected tropical illness. 
+                 Nonetheless, disparities in access to healthcare continue to exist. The COVID-19 epidemic and other lingering issues have made it more difficult to achieve Goal 3. 
+                 The number of children immunised has decreased more than at any other time in the past three decades, 
+                 and mortality from malaria and TB have risen relative to pre-pandemic levels.</p>
+            <img src="images/goal 3.png" alt="Goal 3 Image">
+        </section>
+        <section id="section4" class="clearfix">
+            <h2>Future Goals Good Health and Wellbeing</h2>
+            <p>The ambitious pledge to eradicate the AIDS, TB, malaria, and other infectious disease epidemics by 2030 is made by the Sustainable Development Goals. 
+                The goal is to attain universal health care and give everyone access to reasonably priced, safe medications and immunisations. 
+                More funding for health systems is required to address long-standing issues in healthcare and help nations recover from past tragedies while strengthening their
+                 defences against potential health hazards.</p>
+            <img src="images/sustainability.jpg" alt="Future Goals Image">
+        </section>
+    </article>
+</main>
+<footer>
+    <p>Empowering communities for a healthier tomorrow. Together, let's strive for universal access to quality healthcare, 
+        promoting well-being for all, and ensuring no one is left behind. Join us in making a difference for a brighter, healthier future.</p>
+    <p>© 2024 Good Health And well-being. All rights reserved.</p>
+    <a href="pageEditor_ST4.html">PAGE EDITOR</a>
+</footer>
+
+<script>
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("goToTopBtn").style.display = "block";
+        } else {
+            document.getElementById("goToTopBtn").style.display = "none";
+        }
+    }
+    
+    function scrollToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+<button onclick="scrollToTop()" id="goToTopBtn" title="Go to top">Top</button>
+
+</body>
+</html>
